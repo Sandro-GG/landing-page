@@ -42,8 +42,8 @@ ul {
 
 .content-one {
   display: flex;
-  justify-content: center;
-  gap: 48px;
+  justify-content: space-between;
+  width: 80%;
   padding: 0 32px;
 }
 
@@ -51,11 +51,11 @@ ul {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  max-width: 400px;
-  gap: 16px;
+  justify-content: space-between;
+  width: 35%;
 }
 
-img {
+.top-img {
   width: 400px;
 }
 
@@ -76,5 +76,61 @@ button {
   background-color: #3882F6;
   border-radius: 10px;
   border: none;
+  font-weight: 700;
 }
 
+.content-two {
+  text-align: center;
+  margin: 48px;
+}
+
+.info img {
+  width: 300px;
+  height: 300px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0 200px;
+}
+
+.info-header {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1F2937;
+  padding: 0 0 48px 0;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.info div {
+  width: 300px;
+}
+
+strong {
+  font-size: larger;
+}
+
+.quote {
+  background-color: #E5E7EB;
+  height: 300px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote div {
+  font-size: 36px;
+  color: #1F2937;
+  width: 50%;
+}
+
+strong {
+  float: right;
+}
