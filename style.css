@@ -128,9 +128,9 @@ strong {
 .quote div {
   font-size: 36px;
   color: #1F2937;
-  width: 50%;
+  width: 40%;
 }
 
-strong {
+.quote strong {
   float: right;
 }
